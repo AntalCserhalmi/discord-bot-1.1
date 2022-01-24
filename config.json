@@ -1,0 +1,51 @@
+{
+  "token": "",
+
+  "host": {
+    "port": 80,
+    "name": "0.0.0.0"
+  },
+
+  "crypto": {
+    "algorithm": "aes-256-ctr",
+    "secret": ""
+  },
+
+  "channel": {
+    "ids": {
+      "judge": "",
+      "log": "",
+      "botLog": "",
+      "form": ""
+    }
+  },
+
+  "reactions": {
+    "count": 2
+  },
+
+  "limiter": {
+    "person": 10800,
+    "daily": 86400000
+  },
+
+  "role": {
+    "id": ""
+  },
+  "guild": {
+    "id": ""
+  },
+  "category": {
+    "id": ""
+  },
+
+  "client":{
+    "id": ""
+  },
+
+  "price":{
+    "roles": [],
+    "baseUrl": "https://api.coingecko.com/api/v3",
+    "emotes": ["🟢","🔴"]
+  }
+}
